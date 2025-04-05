@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Découvrez mon parcour et mes compétences."
+			>
+				
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Actuellement en 2éme année de BTS SIO option SLAM au Lycée Ozenne a toulouse.
+
+					</p>
+					<p>
+						Je suis issu d'un Bac STI2D au sein du Lycée Antoine Bourdelle que j'ai obtenue avec la mention Trés Bien. 
+						
+					</p>
+					<p>
+						J'ai décidé de faire est BTS SIO car je trouvé que sa ferrait une passerelle parfaite pour continuer les études 
+						vue que cette formation apporte les bases de l'informatique 
+						et c'est pour cette raison que j'ai choisi de partir en BTS SIO
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>En cour de deuxime année de BTS SIO.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Savoir être</h2>
+				<div class="content">
+					<p>Je suis quelqu'un d'autonome, rigoureux et précisis.
+						Je possede égamelement le sens de l’organisation, l'esprit d'équipe
+						et une capacité d’adaptation
+						</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
