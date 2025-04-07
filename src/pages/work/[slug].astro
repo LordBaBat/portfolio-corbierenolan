@@ -37,7 +37,7 @@ const { Content } = await render(entry);
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
-								<pre>{JSON.stringify(entry.data, null, 2)}</pre> <!-- TEMPORAIRE pour debug -->
+								
                                 {(entry.data?.tags ?? []).map((t) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
