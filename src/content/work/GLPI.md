@@ -80,3 +80,7 @@ Satisfaction des utilisateurs : Évaluation continue pour améliorer le service 
 #### Compétence
 
 ![Tableau de Compétence](/assets/tableauCompGLPI.png)
+
+#### Documentation
+
+[📄 Compte Rendu avec plus detailer](/assets/GLPI_CompteRendu.pdf)
