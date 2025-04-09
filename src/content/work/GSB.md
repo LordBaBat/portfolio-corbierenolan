@@ -75,10 +75,6 @@ Ce projet offre une solution efficace pour la gestion des rapports de visite mé
 
 #### Documentation
 
-Documentation technique :
-
 [📄 Documentation technique](/assets/Documentation-technique-GSB.pdf)
-
-Documentation technique :
 
 [📄 Documentation technique](/assets/Documentation-Utilisateur-GSB.pdf)

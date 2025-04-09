@@ -58,6 +58,4 @@ Développement d’un site facilitant la gestion des candidatures et des recomma
 
 #### Documentation 
 
-Cahier des charge :
-
-[📄 Cahier des charge](/assets/Stage-Cahier-Charge.pdf)
+[📄 Cahier des charge](/assets/Stage-Cahier-Charges.pdf)

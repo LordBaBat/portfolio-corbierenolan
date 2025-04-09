@@ -78,4 +78,5 @@ Satisfaction des utilisateurs : Évaluation continue pour améliorer le service 
 
 
 #### Compétence
+
 ![Tableau de Compétence](/assets/tableauCompGLPI.png)
