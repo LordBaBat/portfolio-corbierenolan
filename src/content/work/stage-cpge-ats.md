@@ -9,7 +9,7 @@ tags:
   - Dev
 ---
 
-## Contextualisation :
+#### Contextualisation
 
  La CPGE ATS Économie-Gestion est une formation préparatoire aux masters en commerce et économie qui, sur une année universitaire, permet aux étudiants de suivre une licence 3 « Administration Économique et Sociale » à l'Université Toulouse Capitole en parallèle des cours au lycée Ozenne.
 
@@ -19,7 +19,7 @@ Cette formation est en dehors de Parcoursup, donc le recrutement est géré par 
 
 Néanmoins, pour ce qui est des recommandations, elles sont restées sous format papier. En effet, l’étudiant doit imprimer la feuille d’« avis de poursuite d’études en CPGE ATS » et la faire passer aux professeurs dont il veut la recommandation. Ce processus engendre plusieurs problèmes : les principaux étant un problème de certification et d’authenticité, car il nous est impossible de vérifier l’identité du signataire. De plus, le processus est fastidieux et long pour les étudiants ainsi que pour les professeurs. D’ailleurs, certains établissements ont fait remonter ce problème au lycée Ozenne.
 
-### La Mission :
+#### La Mission
 
 Développement d’un site facilitant la gestion des candidatures et des recommandations pour la classe préparatoire CPGE ATS économie gestion
  
@@ -42,13 +42,22 @@ Développement d’un site facilitant la gestion des candidatures et des recomma
  
  5- une base de données permettant de stocker les données des candidature
 
-###  Architecture du site
+#### Architecture du site
 
 ![Architecture du site](/assets/architecture-site.jpg)
 
-#### Bilan Personnel de cette expérience :
+#### Bilan Personnel de cette expérience
 
   Cette expérience fut très intéressante et enrichissante. Elle m'a permis de découvrir
  le monde professionnel ainsi qu’elle ma permit de voir un autre aspect du lycée en me
  permettant de le voir non pas en tant qu'élève mais en tant que professionnel. Cela m'a
  également permis d'approfondir sa maîtrise du php, du css, de l’html ainsi que du SQL.
+
+#### Compétence
+![Tableau de Compétence](/assets/tableauCompStage1.png)
+
+#### Documentation 
+
+Cahier des charge :
+
+[📄 Cahier des charge](/assets/Stage-Cahier-Charge.pdf)
