@@ -16,7 +16,7 @@ GLPI (Gestionnaire Libre de Parc Informatique) est un logiciel open-source de ge
 #### 1. Vision générale de la plateforme
 GLPI est un outil de gestion de parc informatique permettant de suivre les équipements, les licences, les utilisateurs et les tickets d’assistance. L’interface technicien offre un tableau de bord centralisé avec des filtres pour afficher les informations sur les tickets et le parc matériel.
 
-![Visu générale](/assets/Matrice_urgence_GLPI.png)
+![Visu générale](/assets/glpiBase.PNG)
 
 #### 2. Saisie d’inventaire
 Paramétrage des lieux et entités : Organisation des équipements selon des entités (périmètre logique avec restrictions d’accès) et des lieux (emplacements physiques).
@@ -26,7 +26,7 @@ Plan de nommage : Chaque appareil est identifié par un code composé de son typ
 #### 3. Matrice d’urgence
 Un système de classification des incidents selon leur impact et leur urgence :
 
-![matrice d'urgence](/assets/glpiBase.PNG)
+![matrice d'urgence](/assets/Matrice_urgence_GLPI.png)
 
 
 #### 4. Cycle de vie d’un ticket utilisateur
