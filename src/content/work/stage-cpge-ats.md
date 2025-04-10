@@ -6,7 +6,10 @@ img_alt: image du site web coté candidature
 description:
  Création d'un site avec des formulaires pour les candidature a la classe préparatoire CPGE ATS
 tags:
-  - Dev
+  - html
+  - css
+  - php
+  - sql
 ---
 
 #### Contextualisation

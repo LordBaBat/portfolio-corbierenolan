@@ -6,7 +6,9 @@ img_alt: Pro à Pro image entreprise
 description: |
   Création d'une feuille pour la visualisation des donnée de commerce en lignel'entreprise Pro à Pro.
 tags:
-  - Dev
+  - sql
+  - set Analysis
+  
 ---
 
 #### Contextualisation

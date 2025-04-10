@@ -83,4 +83,4 @@ Satisfaction des utilisateurs : Évaluation continue pour améliorer le service 
 
 #### Documentation
 
-[📄 Compte Rendu avec plus detailer](/assets/GLPI_CompteRendu.pdf)
+[📄 Compte Rendu avec plus détaille](/assets/GLPI_CompteRendu.pdf)
